@@ -1,3 +1,13 @@
 <ion-app>
   <ion-router-outlet></ion-router-outlet>
 </ion-app>
+
+<!-- Add navigation -->
+<ion-tabs>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button routerLinkActive="tab-selected" routerLink="/movie-list" tab="list">
+      <ion-icon name="list-outline"></ion-icon>
+      <ion-label>Liste des films</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>
